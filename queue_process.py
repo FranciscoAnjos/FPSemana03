@@ -5,7 +5,7 @@ words = input_words.split()
 
 queue = deque(words)
 
-print(f"deque({list(queue)})")
+print(f"deque({list(queue)[::-1]})")
 
 for word in queue:
     if 'o' in word:
